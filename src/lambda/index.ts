@@ -1,4 +1,5 @@
-import fetch from "isomorphic-fetch";
+import fetch from "node-fetch";
+import btoa from "btoa";
 
 type Event = {
   path: string;
@@ -11,14 +12,25 @@ type Event = {
 
 export async function handler(_: Event, __: any) {
   const avatar = assets[Math.floor(Math.random() * assets.length)];
-
-  const data = await (await fetch(avatar)).blob();
+  const response = await fetch(avatar);
+  const data = await response.arrayBuffer();
+  const imageStr = arrayBufferToBase64(data);
 
   return {
     statusCode: 200,
-    headers: { "Content-Type": "image/png" },
-    body: data,
+    isBase64Encoded: true,
+    headers: { "Content-Type": "image/png", "Content-Length": data.byteLength },
+    body: imageStr,
   };
+}
+
+function arrayBufferToBase64(buffer: ArrayBuffer) {
+  var binary = "";
+  var bytes = [].slice.call(new Uint8Array(buffer));
+
+  bytes.forEach(b => (binary += String.fromCharCode(b)));
+
+  return btoa(binary);
 }
 
 const assets = [

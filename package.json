@@ -9,11 +9,15 @@
     "postinstall": "yarn build"
   },
   "devDependencies": {
+    "@types/btoa": "^1.2.3",
     "@types/isomorphic-fetch": "^0.0.35",
     "@types/node": "^12.12.14",
+    "@types/node-fetch": "^2.5.4",
     "typescript": "^3.7.2"
   },
   "dependencies": {
-    "isomorphic-fetch": "^2.2.1"
+    "btoa": "^1.2.1",
+    "isomorphic-fetch": "^2.2.1",
+    "node-fetch": "^2.6.0"
   }
 }
