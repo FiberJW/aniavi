@@ -1,7 +1,7 @@
 {
   "name": "aniavi",
   "version": "1.0.0",
-  "main": "dist/lambda/index.js",
+  "main": "dist/lambda/random.js",
   "author": "Juwan Wheatley",
   "license": "MIT",
   "scripts": {
