@@ -1,3 +1,5 @@
+import fetch from "isomorphic-fetch";
+
 type Event = {
   path: string;
   httpMethod: string;

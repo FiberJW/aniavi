@@ -9,7 +9,11 @@
     "postinstall": "yarn build"
   },
   "devDependencies": {
+    "@types/isomorphic-fetch": "^0.0.35",
     "@types/node": "^12.12.14",
     "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1"
   }
 }
