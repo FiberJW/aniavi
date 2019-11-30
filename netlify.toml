@@ -1,0 +1,4 @@
+[build]
+  command = "yarn build"
+  functions = "dist/lambda" # netlify dev uses this to know where to scaffold and serve your functions
+  publish = "dist"
