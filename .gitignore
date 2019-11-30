@@ -1,3 +1,5 @@
 node_modules
 tsconfig.tsbuildinfo
 dist
+# Local Netlify folder
+.netlify
