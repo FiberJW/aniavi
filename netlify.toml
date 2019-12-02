@@ -2,3 +2,10 @@
   command = "yarn build"
   functions = "dist/lambda" # netlify dev uses this to know where to scaffold and serve your functions
   publish = "dist"
+
+[[redirects]]
+  from = "/"
+  to = "/.netlify/functions/random"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}

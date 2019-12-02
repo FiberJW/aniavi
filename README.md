@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Random Anime Avatar, Served by AniAvi.FiberJW.com" src="https://aniavi.fiberjw.com/.netlify/functions/random">
+  <img alt="Noragami Falling Selfie GIF" src="./readme-artwork.gif">
 </p>
 
 <h3 align="center" style="font-weight:600">
