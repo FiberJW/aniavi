@@ -16,7 +16,7 @@
 
 ## Getting Started
 
-Add `https://aniavi.fiberjw.com/.netlify/functions/random` as the source to an image element/component in your app.
+Add `https://aniavi.fiberjw.com` as the source to any image element/component in your app.
 
 ## Contributing
 
