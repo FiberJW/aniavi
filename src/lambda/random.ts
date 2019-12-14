@@ -181,4 +181,6 @@ const assets = [
   "https://github.com/FiberJW/aniavi/blob/master/assets/my-hero-academia/Yo_Shindo_Anime_Portrait.png?raw=true",
   "https://github.com/FiberJW/aniavi/blob/master/assets/my-hero-academia/Yokumiru_Mera_Portrait.png?raw=true",
   "https://github.com/FiberJW/aniavi/blob/master/assets/my-hero-academia/Yuuga_Aoyama_Portrait.png?raw=true",
+  "https://github.com/FiberJW/aniavi/blob/master/assets/takagi-san/takagi.png?raw=true",
+  "https://github.com/FiberJW/aniavi/blob/master/assets/takagi-san/nishikata.png?raw=true",
 ];
