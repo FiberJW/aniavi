@@ -1,5 +1,10 @@
 import fetch from "node-fetch";
 import btoa from "btoa";
+import Sentry from "@sentry/node";
+
+Sentry.init({
+  dsn: process.env.SENTRY_DSN,
+});
 
 type Event = {
   path: string;

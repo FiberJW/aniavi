@@ -17,6 +17,7 @@
     "typescript": "^3.7.2"
   },
   "dependencies": {
+    "@sentry/node": "5.10.2",
     "btoa": "^1.2.1",
     "isomorphic-fetch": "^2.2.1",
     "node-fetch": "^2.6.0"
